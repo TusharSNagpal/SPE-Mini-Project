@@ -1,4 +1,1 @@
-localhost ansible_user=anisble_usr ansible localhost
-
-[ubuntu1]
-172.17.0.2 ansible_user = 5b41911527c9
+172.16.132.90 ansible_ssh_user = tushar ansible_ssh_pass = 87950000
