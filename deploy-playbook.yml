@@ -4,5 +4,5 @@
   tasks:
     - name: Pull image of working project from dockerhub
       docker_image:
-        name: 
+        name: tusharsnagpal/spe-mini-proj:latest
         source: pull
