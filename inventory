@@ -1,2 +1,1 @@
-[developer]
 client1 ansible_host=172.16.128.35 ansible_connection=ssh ansible_user=jayant ansible_sudo_pass=jayant@2611
