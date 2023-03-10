@@ -1,1 +1,1 @@
-172.16.132.90 ansible_ssh_user = tushar ansible_ssh_pass = 87950000
+172.16.132.90 ansible_ssh_user=tushar ansible_ssh_pass=87950000
