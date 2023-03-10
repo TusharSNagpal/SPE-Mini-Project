@@ -1,4 +1,4 @@
 localhost ansible_user=anisble_usr ansible localhost
 
-[ubuntu]
-127.0.0.1 ansible_user = 5b41911527c9
+[ubuntu1]
+172.17.0.2 ansible_user = 5b41911527c9
