@@ -9,7 +9,7 @@
         source: pull
     - name: Create & Start Calculator Docker Container
       docker_container:
-        name: tusharsnagpal/spe-mini-proj
+        name: spe-mini-proj
         image: tusharsnagpal/spe-mini-proj
         state: started
         tty: yes
