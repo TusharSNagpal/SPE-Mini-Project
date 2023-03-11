@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.AppTest" time="0.005" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.AppTest" time="0.005" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/tushar/Documents/Course IIITb/Semester 2/SPE/speMiniProj/target/test-classes:/home/tushar/Documents/Course IIITb/Semester 2/SPE/speMiniProj/target/classes:/home/tushar/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/tushar/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/tushar/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/home/tushar/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/tushar/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/home/tushar/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/home/tushar/.m2/repository/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.jar:"/>
+    <property name="java.class.path" value="/home/tushar/Documents/Course IIITb/Semester 2/SPE/speMiniProj/target/test-classes:/home/tushar/Documents/Course IIITb/Semester 2/SPE/speMiniProj/target/classes:/home/tushar/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/tushar/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/tushar/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/home/tushar/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/tushar/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/home/tushar/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:"/>
     <property name="java.vm.vendor" value="Ubuntu"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://ubuntu.com/"/>
@@ -16,9 +16,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/tushar/Documents/Course IIITb/Semester 2/SPE/speMiniProj/target/surefire/surefirebooter9839235338833271365.jar /home/tushar/Documents/Course IIITb/Semester 2/SPE/speMiniProj/target/surefire 2023-03-11T19-55-12_847-jvmRun1 surefire7357501587029297569tmp surefire_02577845041393913327tmp"/>
+    <property name="sun.java.command" value="/home/tushar/Documents/Course IIITb/Semester 2/SPE/speMiniProj/target/surefire/surefirebooter509591166329398886.jar /home/tushar/Documents/Course IIITb/Semester 2/SPE/speMiniProj/target/surefire 2023-03-11T20-14-03_273-jvmRun1 surefire3605002109656180142tmp surefire_012747747259780986739tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/home/tushar/Documents/Course IIITb/Semester 2/SPE/speMiniProj/target/test-classes:/home/tushar/Documents/Course IIITb/Semester 2/SPE/speMiniProj/target/classes:/home/tushar/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/tushar/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/tushar/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/home/tushar/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/tushar/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/home/tushar/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/home/tushar/.m2/repository/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.jar:"/>
+    <property name="surefire.test.class.path" value="/home/tushar/Documents/Course IIITb/Semester 2/SPE/speMiniProj/target/test-classes:/home/tushar/Documents/Course IIITb/Semester 2/SPE/speMiniProj/target/classes:/home/tushar/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/tushar/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/tushar/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/home/tushar/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/tushar/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/home/tushar/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/tushar"/>
     <property name="user.language" value="en"/>
@@ -32,7 +32,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/tushar/Documents/Course IIITb/Semester 2/SPE/speMiniProj/target/surefire/surefirebooter9839235338833271365.jar"/>
+    <property name="surefire.real.class.path" value="/home/tushar/Documents/Course IIITb/Semester 2/SPE/speMiniProj/target/surefire/surefirebooter509591166329398886.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.17+8-post-Ubuntu-1ubuntu220.04"/>
     <property name="user.name" value="tushar"/>
@@ -58,4 +58,5 @@
     <property name="java.class.version" value="55.0"/>
   </properties>
   <testcase name="testPower" classname="org.example.AppTest" time="0"/>
+  <testcase name="powerTrueNegative" classname="org.example.AppTest" time="0"/>
 </testsuite>
