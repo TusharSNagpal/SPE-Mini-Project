@@ -10,6 +10,9 @@ import static java.lang.Math.pow;
  */
 public class App 
 {
+    public static double power(double a, double b){
+        return pow(a,b);
+    }
     public static void main( String[] args )
     {
         double number1, number2;
@@ -25,7 +28,7 @@ public class App
             number2 = scanner.nextDouble();
             System.out.println();
 
-            double ans = pow(number1, number2);
+            double ans = power(number1, number2);
             System.out.println(ans);
             //
         }
