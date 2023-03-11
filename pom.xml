@@ -6,7 +6,7 @@
   <artifactId>speMiniProj</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
-
+<!--//change-->
   <build>
     <plugins>
       <plugin>
@@ -30,19 +30,14 @@
             </configuration>
           </execution>
         </executions>
+        <dependencies>
+          <dependency>
+            <groupId>org.apache.maven.surefire</groupId>
+            <artifactId>surefire-junit47</artifactId>
+            <version>3.0.0-M5</version>
+          </dependency>
+        </dependencies>
       </plugin>
-<!--      <plugin>-->
-<!--        <groupId>org.apache.maven.plugins</groupId>-->
-<!--        <artifactId>maven-surefire-plugin</artifactId>-->
-<!--        <version>3.0.0-M5</version>-->
-<!--        <dependencies>-->
-<!--          <dependency>-->
-<!--            <groupId>org.apache.maven.surefire</groupId>-->
-<!--            <artifactId>surefire-junit47</artifactId>-->
-<!--            <version>3.0.0-M5</version>-->
-<!--          </dependency>-->
-<!--        </dependencies>-->
-<!--      </plugin>-->
     </plugins>
   </build>
 
@@ -51,8 +46,8 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>11</maven.compiler.source>
-    <maven.compiler.target>11</maven.compiler.target>
+    <maven.compiler.source>8</maven.compiler.source>
+    <maven.compiler.target>8</maven.compiler.target>
   </properties>
 
   <dependencies>
@@ -69,12 +64,12 @@
       <scope>test</scope>
     </dependency>
 
-<!--    <dependency>-->
-<!--      <groupId>org.slf4j</groupId>-->
-<!--      <artifactId>slf4j-simple</artifactId>-->
-<!--      <version>1.7.25</version>-->
-<!--      <scope>test</scope>-->
-<!--    </dependency>-->
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-simple</artifactId>
+      <version>1.7.25</version>
+      <scope>test</scope>
+    </dependency>
 
   </dependencies>
 
