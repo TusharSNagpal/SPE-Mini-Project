@@ -1,16 +1,16 @@
 ---
 - name: Pull docker image
-  hosts: localhost
+  hosts: all
   tasks:
     - name: Pull image of working project from dockerhub
       docker_image:
-        name: tusharsnagpal/spe-mini-proj
+        name: tusharsnagpal/scientific_cal
         tag: latest
         source: pull
-    - name: Create & Start Calculator Docker Container
-      docker_container:
-        name: spe-mini-proj
-        image: tusharsnagpal/spe-mini-proj
-        state: started
-        tty: yes
-        interactive: yes
+#    - name: Create & Start Calculator Docker Container
+#      docker_container:
+#        name: spe-mini-proj
+#        image: tusharsnagpal/scientific_cal
+#        state: started
+#        tty: yes
+#        interactive: yes

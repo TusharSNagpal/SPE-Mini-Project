@@ -1,1 +1,2 @@
-172.16.132.90 ansible_user=tushar ansible_pass=87950000
+[one]
+10.57.236.94 ansible_user=expert-woodpecker
