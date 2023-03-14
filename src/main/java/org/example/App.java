@@ -35,7 +35,6 @@ public class App
 
             double ans = power(number1, number2);
             System.out.println(ans);
-            //
         }
     }
 }
