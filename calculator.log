@@ -1,0 +1,18 @@
+2023-03-11 20:47:40.656 [main] INFO  org.example.App - [POWER- NUMBER 1] : 2.0
+2023-03-11 20:47:40.659 [main] INFO  org.example.App - [POWER- NUMBER 2] : 6.0
+2023-03-11 20:47:40.659 [main] INFO  org.example.App - [POWER- ANSWER] : 64.0
+2023-03-11 20:47:40.660 [main] INFO  org.example.App - [POWER- NUMBER 1] : 2.0
+2023-03-11 20:47:40.661 [main] INFO  org.example.App - [POWER- NUMBER 2] : 2.0
+2023-03-11 20:47:40.661 [main] INFO  org.example.App - [POWER- ANSWER] : 4.0
+2023-03-11 20:47:40.661 [main] INFO  org.example.App - [POWER- NUMBER 1] : -2.0
+2023-03-11 20:47:40.662 [main] INFO  org.example.App - [POWER- NUMBER 2] : 20.0
+2023-03-11 20:47:40.665 [main] INFO  org.example.App - [POWER- ANSWER] : 1048576.0
+2023-03-11 20:47:49.714 [main] INFO  org.example.App - [POWER- NUMBER 1] : 2.0
+2023-03-11 20:47:49.716 [main] INFO  org.example.App - [POWER- NUMBER 2] : 6.0
+2023-03-11 20:47:49.717 [main] INFO  org.example.App - [POWER- ANSWER] : 64.0
+2023-03-11 20:47:49.718 [main] INFO  org.example.App - [POWER- NUMBER 1] : 2.0
+2023-03-11 20:47:49.718 [main] INFO  org.example.App - [POWER- NUMBER 2] : 2.0
+2023-03-11 20:47:49.719 [main] INFO  org.example.App - [POWER- ANSWER] : 4.0
+2023-03-11 20:47:49.719 [main] INFO  org.example.App - [POWER- NUMBER 1] : -2.0
+2023-03-11 20:47:49.719 [main] INFO  org.example.App - [POWER- NUMBER 2] : 20.0
+2023-03-11 20:47:49.720 [main] INFO  org.example.App - [POWER- ANSWER] : 1048576.0
