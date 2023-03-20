@@ -1,2 +1,3 @@
 [one]
-172.16.128.35 ansible_user=jayant ansible_sudo_pass=jayant@2811
+172.16.128.35 ansible_user=ansible_usr
+

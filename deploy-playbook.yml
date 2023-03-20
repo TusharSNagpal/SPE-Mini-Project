@@ -2,12 +2,12 @@
 - name: Pull docker image
   hosts: all
   tasks:
-    - name: Pull image of working project from dockerhub
+    - name: IMAGE PULL FROM DOCKER HUB
       docker_image:
         name: tusharsnagpal/scientific_cal
         tag: latest
         source: pull
-    - name: Create & Start Calculator Docker Container
+    - name: DOCKER CREATE
       docker_container:
         name: spe-mini-proj
         image: tusharsnagpal/scientific_cal
