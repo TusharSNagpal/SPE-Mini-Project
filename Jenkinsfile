@@ -26,7 +26,7 @@ pipeline {
             steps{
                 script{
                     withCredentials([string(credentialsId: 'docker-auth', variable: 'check')]) {
-                        sh 'docker login -u tusharsnagpal -p ${docker-auth}'
+//                         sh 'docker login -u tusharsnagpal -p ${docker-auth}'
                         imageName.push()
                     }
                 }
