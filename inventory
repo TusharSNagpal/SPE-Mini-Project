@@ -1,3 +1,3 @@
 [one]
-172.16.132.90 ansible_user=ansible_usr ansible_sudo_pass=8795
+172.16.132.90 ansible_user=ansible_usr
 
