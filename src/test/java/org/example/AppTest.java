@@ -15,8 +15,17 @@ public class AppTest {
     }
 
     @Test
-    public void powerTrueNegative() {
-        assertNotEquals("Power function True Negative", 69, obj.power(2, 2), DELTA);
-        assertNotEquals("Power function True Negative", -69420, obj.power(-2, 20), DELTA);
+    public void testSquareRoot(){
+        assertEquals("Power function True Positive", 8.0, obj.squareRoot(64), DELTA);
+    }
+
+    @Test
+    public void testNaturalLog(){
+        assertEquals("Power function True Positive", 4.60517018599, obj.naturalLog(100), DELTA);
+    }
+
+    @Test
+    public void testFactorial(){
+        assertEquals("Power function True Positive", 120, obj.factorial(5), DELTA);
     }
 }

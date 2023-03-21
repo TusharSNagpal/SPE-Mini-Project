@@ -33,3 +33,12 @@
 2023-03-20 15:14:27.425 [main] INFO  org.example.App - [POWER- NUMBER 1] : -2.0
 2023-03-20 15:14:27.425 [main] INFO  org.example.App - [POWER- NUMBER 2] : 20.0
 2023-03-20 15:14:27.426 [main] INFO  org.example.App - [POWER- ANSWER] : 1048576.0
+2023-03-21 14:46:01.680 [main] INFO  org.example.App - [POWER- NUMBER 1] : 2.0
+2023-03-21 14:46:01.682 [main] INFO  org.example.App - [POWER- NUMBER 2] : 6.0
+2023-03-21 14:46:01.683 [main] INFO  org.example.App - [POWER- ANSWER] : 64.0
+2023-03-21 14:46:01.685 [main] INFO  org.example.App - [POWER- NUMBER 1] : 2.0
+2023-03-21 14:46:01.685 [main] INFO  org.example.App - [POWER- NUMBER 2] : 2.0
+2023-03-21 14:46:01.685 [main] INFO  org.example.App - [POWER- ANSWER] : 4.0
+2023-03-21 14:46:01.686 [main] INFO  org.example.App - [POWER- NUMBER 1] : -2.0
+2023-03-21 14:46:01.687 [main] INFO  org.example.App - [POWER- NUMBER 2] : 20.0
+2023-03-21 14:46:01.687 [main] INFO  org.example.App - [POWER- ANSWER] : 1048576.0
