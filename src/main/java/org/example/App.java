@@ -66,6 +66,8 @@ public class App
             System.out.println("2. Square Root (x^(1/2))");
             System.out.println("3. Factorial(x!)");
             System.out.println("4. Natural logarithm (base е) (ln(x))");
+            System.out.println("5. Exit");
+
 
             int op;
             op = scanner.nextInt();
@@ -113,11 +115,12 @@ public class App
                     break;
 
                 case 5:
-                    System.out.println("Please Enter a valid choice of operation..!");
-                    break;
+                    System.out.println("Thank You..!");
+                    return;
 
                 default:
-                    return;
+                    System.out.println("Please Enter a valid choice of operation..!");
+                    break;
             }
         }
     }
