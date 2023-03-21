@@ -21,7 +21,7 @@ public class AppTest {
 
     @Test
     public void testNaturalLog(){
-        assertEquals("Power function True Positive", 4.60517018599, obj.naturalLog(100), DELTA);
+        assertEquals("Power function True Positive", 4.605170185988092, obj.naturalLog(100), DELTA);
     }
 
     @Test
