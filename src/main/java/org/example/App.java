@@ -92,6 +92,15 @@ public class App
                     number1 = scanner.nextDouble();
                     System.out.println();
 
+                    while(number1 < 0){
+                        System.out.println("Please Enter a value (>= 0)");
+                        System.out.print("Enter Number: ");
+                        number1 = scanner.nextDouble();
+                        System.out.println();
+
+                        logger.warn("[Value Entered by user for Square Root is less than 0]");
+                    }
+
                     ans = squareRoot(number1);
                     System.out.println(ans);
                     break;
@@ -99,7 +108,17 @@ public class App
                 case 3:
                     System.out.print("Enter Number: ");
                     number1 = scanner.nextDouble();
+
                     System.out.println();
+
+                    while(number1>20) {
+                        System.out.println("Please Enter a value less than 21..!");
+                        System.out.print("Enter Number: ");
+                        number1 = scanner.nextDouble();
+                        System.out.println();
+
+                        logger.warn("[Value Entered by user for Factorial is greater than 20]");
+                    }
 
                     ans = factorial(number1);
                     System.out.println(ans);
@@ -109,6 +128,15 @@ public class App
                     System.out.print("Enter Number: ");
                     number1 = scanner.nextDouble();
                     System.out.println();
+
+                    while(number1 <= 0){
+                        System.out.println("Please Enter a Positive value (> 0)");
+                        System.out.print("Enter Number: ");
+                        number1 = scanner.nextDouble();
+                        System.out.println();
+
+                        logger.warn("[Value Entered by user for Natural Log is less than equal to 0]");
+                    }
 
                     ans = naturalLog(number1);
                     System.out.println(ans);

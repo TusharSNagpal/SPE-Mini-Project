@@ -6,7 +6,7 @@
   <artifactId>speMiniProj</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
-<!--//change-->
+
   <build>
     <plugins>
       <plugin>

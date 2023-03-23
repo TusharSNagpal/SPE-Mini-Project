@@ -1,9 +1,9 @@
-2023-03-21 09:39:06.974 [main] INFO  org.example.App - [POWER- NUMBER 1] : 3.0
-2023-03-21 09:39:06.978 [main] INFO  org.example.App - [POWER- NUMBER 2] : 4.0
-2023-03-21 09:39:06.978 [main] INFO  org.example.App - [POWER- ANSWER] : 81.0
-2023-03-21 09:39:39.975 [main] INFO  org.example.App - [Square Root- NUMBER] : 81.0
-2023-03-21 09:39:39.975 [main] INFO  org.example.App - [Square Root- ANSWER] : 9.0
-2023-03-21 09:39:44.087 [main] INFO  org.example.App - [Factorial- NUMBER] : 4.0
-2023-03-21 09:39:44.088 [main] INFO  org.example.App - [Factorial- ANSWER] : 24.0
-2023-03-21 09:39:50.285 [main] INFO  org.example.App - [Natural Log- NUMBER] : 90.0
-2023-03-21 09:39:50.285 [main] INFO  org.example.App - [Natural Log- ANSWER] : 4.499809670330265
+2023-03-21 19:17:36.965 [main] INFO  org.example.App - [POWER- NUMBER 1] : 2.0
+2023-03-21 19:17:36.968 [main] INFO  org.example.App - [POWER- NUMBER 2] : 6.0
+2023-03-21 19:17:36.968 [main] INFO  org.example.App - [POWER- ANSWER] : 64.0
+2023-03-21 19:17:36.969 [main] INFO  org.example.App - [Factorial- NUMBER] : 5.0
+2023-03-21 19:17:36.970 [main] INFO  org.example.App - [Factorial- ANSWER] : 120.0
+2023-03-21 19:17:36.971 [main] INFO  org.example.App - [Natural Log- NUMBER] : 100.0
+2023-03-21 19:17:36.972 [main] INFO  org.example.App - [Natural Log- ANSWER] : 4.605170185988092
+2023-03-21 19:17:36.973 [main] INFO  org.example.App - [Square Root- NUMBER] : 64.0
+2023-03-21 19:17:36.973 [main] INFO  org.example.App - [Square Root- ANSWER] : 8.0
